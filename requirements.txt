@@ -22,7 +22,7 @@ nltk==3.8.1
 pamela==1.0.0
 pinecone-client==2.2.1
 protobuf==4.21.12
-pyarrow==12.0.0
+pyarrow==14.0.1
 pycurl==7.45.1
 python-dotenv==1.0.0
 regex==2023.5.5
