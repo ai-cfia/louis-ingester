@@ -1,4 +1,6 @@
-FROM docker.io/jupyter/datascience-notebook:latest
+# From "https://quay.io/repository/jupyter/datascience-notebook":
+# "Images hosted on Docker Hub are no longer updated. Please, use quay.io image"
+FROM quay.io/jupyter/datascience-notebook:latest
 
 USER root
 # Generally, Dev Container Features assume that the non-root user (in this case jovyan)
